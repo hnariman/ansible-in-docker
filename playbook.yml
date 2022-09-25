@@ -1,0 +1,9 @@
+---
+- name: testing ansible
+  hosts: all
+  gather_facts: no
+  remote_user: ubuntu
+  become: yes
+  tasks:
+    - shell: uname -r
+

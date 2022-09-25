@@ -1,0 +1,5 @@
+---
+virtuals:
+  hosts:
+    vm01:
+      ansible_host: 172.17.0.2
